@@ -2,14 +2,18 @@
     <h3>{{ q.question }}</h3>
     <ul >
         <li *ngFor="let rep of q.reponses; let i=index" [ngSwitch]="q.type">
-            <label>{{ rep.enonce }}
+            <label>{{ rep.enonce | uppercase }}
                 <input *ngSwitchCase="'checkbox'" type="checkbox" [value]="rep.score" [name]="name">
                 <input *ngSwitchCase="'input'" type="input" [value]="rep.score" [name]="name">
                 <input *ngSwitchCase="'radio'" type="radio" [value]="rep.score" [name]="name">
                     
 
                 <!-- <input [type]="q.type" [value]="rep.score" [name]="i"> -->
-
+                <ul>
+                    <li *ngFor="let r for rep | keyvalue">
+                        {{r.key}} : {{r.value}}
+                    </li>
+                </ul>
             </label>
         </li>
     </ul>

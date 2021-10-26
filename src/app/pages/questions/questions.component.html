@@ -1,7 +1,10 @@
 <section>
     <h2>Êtes-vous humain ?</h2>
+    <input [(ngModel)]="filtreQ" name="filtre">
     <!-- Boucle sur le composant question et injection des données -->
-    <article *ngFor="let quest of questionServe.questions | slice: pagination.debut:pagination.debut+pagination.ecart">
+    <!-- <article *ngFor="let quest of questionServe.questions | slice: pagination.debut:pagination.debut+pagination.ecart"> -->
+    <article *ngFor="let quest of questionServe.questions | questions:filtreQ">
+     
         <app-question [q]="quest"></app-question>
     </article>
     <button class="bouton" (click)="paginationMoins()"><</button>

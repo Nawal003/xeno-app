@@ -8,7 +8,7 @@ import { QuestionsService } from 'src/app/system/services/questions.service';
 export class QuestionsComponent implements OnInit {
 
   pagination: any = {debut:0, ecart:1}
-
+  filtreQ:string=""
   constructor(public questionServe :QuestionsService) { 
     
   }
