@@ -1,0 +1,12 @@
+<section>
+    <h2>Êtes-vous humain ?</h2>
+    <!-- Boucle sur le composant question et injection des données -->
+    <article *ngFor="let quest of questionServe.questions | slice: pagination.debut:pagination.debut+pagination.ecart">
+        <app-question [q]="quest"></app-question>
+    </article>
+    <button class="bouton" (click)="paginationMoins()"><</button>
+    <button class="bouton" (click)="paginationPlus()">></button>
+
+  
+    <p>Toi y en a humain ?</p>
+</section>

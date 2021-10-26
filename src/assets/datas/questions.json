@@ -1,0 +1,98 @@
+[
+    {
+        "id":0,
+        "question":"Un collègue de travail vous apprend qu'il a malencontreusement écrasé un petit insecte. Quelle est votre réaction ?",
+        "type":"checkbox",
+        "reponses":[
+            {
+                "id":0,
+                "enonce":"Vous êtes infiniment triste",
+                "score":34
+            },{
+                "id":1,
+                "enonce":"Bof,ce n'était qu'un insecte",
+                "score":12.6
+            },{
+                "id":2,
+                "enonce":"Vous compatissez, mais au fond, vous vous en fichez un peu",
+                "score":14
+            },{
+                "id":3,
+                "enonce":"Tant mieux ! Vous detestez ces petites bêtes",
+                "score":2
+            }
+        ]
+    },
+    {
+        "id":1,
+        "question":"Vous regardez un film à la télé. Soudainement une guêpe se pose sur votre bras et le remonte. Quelle sera votre réaction ?",
+        "type":"radio",
+        "reponses":[
+            {
+                "id":0,
+                "enonce":"Je l’écrase",
+                "score":"NA"
+            },{
+                "id":1,
+                "enonce":"Je l’éjecte",
+                "score":7
+            },{
+                "id":2,
+                "enonce":"je la savoure",
+                "score":13
+            },{
+                "id":3,
+                "enonce":"Je l’attrappe pour l’observer",
+                "score":23
+            }
+        ]
+    },
+    {
+        "id":2,
+        "question":"Vous croisez un sans-abri. Nuit froide. Grande ville. Vous cherchez de la monnaie, et un billet de 20€ tombe de votre poche sur ses genoux. Vous…",
+        "type":"radio",
+        "reponses":[
+            {
+                "id":0,
+                "enonce":"l’échangez contre de la petite monnaie",
+                "score":"NA"
+            },{
+                "id":1,
+                "enonce":"dites que vous avez fait exprès avec un clin d’oeil entendu",
+                "score":7
+            },{
+                "id":2,
+                "enonce":"doublez la mise",
+                "score":13
+            },{
+                "id":3,
+                "enonce":"regardez le billet avec indifférence",
+                "score":23
+            }
+        ]
+    },
+    {
+        "id":3,
+        "question":"Un ami vous offre une tequila. Vous avez hérité du verre. Il est temps de…",
+        "type":"radio",
+        "reponses":[
+            {
+                "id":0,
+                "enonce":"l’avaler",
+                "score":1
+            },{
+                "id":1,
+                "enonce":"l’avaler et redemander un autre verre",
+                "score":13
+            },{
+                "id":2,
+                "enonce":"le refusez poliment",
+                "score":13
+            },{
+                "id":3,
+                "enonce":"ne pas cacher son dégoût",
+                "score":23
+            }
+        ]
+    }
+]
